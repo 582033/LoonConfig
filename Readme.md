@@ -10,11 +10,12 @@ https://raw.githubusercontent.com/582033/LoonConfig/main/LoonConfig.yaml
 https://raw.fastgit.org/582033/LoonConfig/main/LoonConfig.yaml
 ```
 2. 在配置中选择`从URL下载`:
-[](./sta/conf1.jpg)
+
+[](https://raw.githubusercontent.com/582033/LoonConfig/main/sta/conf1.jpg)
 
 3.填写你的订阅链接
 
-[](./sta/conf2.jpg)
+[](https://raw.githubusercontent.com/582033/LoonConfig/main/sta/conf2.jpg)
 
 
 ---
@@ -29,7 +30,7 @@ https://raw.fastgit.org/582033/LoonConfig/main/LoonConfig.yaml
 ```
 
 * 填写如图:
-[](https://github.com/582033/LoonConfig/blob/main/example.png?raw=true)
+[](https://raw.githubusercontent.com/582033/LoonConfig/main/sta/example.png)
 
 ### 注意事项:
 * 需要勾选`输出为Node List`选项
