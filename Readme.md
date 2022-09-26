@@ -1,3 +1,24 @@
+
+### Loon配置使用
+
+1. 复制配置文件路径:
+```
+https://raw.githubusercontent.com/582033/LoonConfig/main/LoonConfig.yaml
+```
+推荐使用下面的加速地址，
+```
+https://raw.fastgit.org/582033/LoonConfig/main/LoonConfig.yaml
+```
+2. 在配置中选择`从URL下载`:
+[](./sta/conf1.jpg)
+
+3.填写你的订阅链接
+
+[](./sta/conf2.jpg)
+
+
+---
+
 ### 自建节点转订阅
 * 在线`Subscription Converter`平台;推荐下[https://sub.xeton.dev/](https://sub.xeton.dev/)
 
@@ -8,7 +29,7 @@
 ```
 
 * 填写如图:
-[](./example.png)
+[](https://github.com/582033/LoonConfig/blob/main/example.png?raw=true)
 
 ### 注意事项:
 * 需要勾选`输出为Node List`选项
