@@ -1,0 +1,16 @@
+#!name=Google重定向
+#!desc=将google.cn/google.com.hk重定向至google.com
+#!author=yjiang
+#!homepage=https://github.com/582033/LoonPlugin/
+#!icon=https://raw.githubusercontent.com/582033/LoonConfig/master/sta/GoogleIcon.png
+# 注：需关闭当前Google网页并重新开启Loon开关,否则无效
+
+
+[URL Rewrite]
+^https?:\/\/(www.)?(g|google)\.(cn|com\.hk)\/search\?q=(.*)&ie=UTF-8(.*)? https://www.google.com/search?q=$4&ie=UTF-8&oe=UTF-8&hl=zh-hans-cn&sclient=mobile-gws-wiz-hp 302
+
+[Script]
+http-request ^https?:\/\/(www.)?(g|google)\.(com)\/search\?q=(.*) script-path=https://raw.githubusercontent.com/582033/LoonConfig/master/plugin/GoogleRedirect.js, tag=Google重定向, enable=true, requires-body=false
+
+[MITM]
+hostname = *.google.cn, *.google.com.hk, *.google.com
